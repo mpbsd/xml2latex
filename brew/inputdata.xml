@@ -1,0 +1,1636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Derivação</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 73167  -->
+  <question type="matching">
+    <name>
+      <text>Calcular derivadas</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para cada uma das funções abaixo, calcule \(\left.\dfrac{dy}{dx}\right|_{x=-1}\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está correta.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está parcialmente correta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está incorreta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p>\(y = 1+ x+x^2+x^3+x^4+x^5\)</p>]]></text>
+      <answer>
+        <text>3</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\( y = (1-x)(1+x)(1+x^2)(1+x^4)\)</p>]]></text>
+      <answer>
+        <text>8</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\(y=\dfrac{2x-1}{x+3}\)</p>]]></text>
+      <answer>
+        <text>7/4</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p>\(y = \left(\dfrac{3x+2}{x}\right)(x^{-5} + 1)\)</p>]]></text>
+      <answer>
+        <text>-5</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>15</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>-8</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>7/16</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>-29</text>
+      </answer>
+    </subquestion>
+  </question>
+
+<!-- question: 93988  -->
+  <question type="matching">
+    <name>
+      <text>VF-TIPO 1 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Determine se a afirmação é verdadeira ou falsa.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>false</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está correta.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está parcialmente correta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está incorreta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>a)</strong> Seja \(f(x)=tan (x) \sec (x)\). Podemos afirmar que \(f'(0)=1.\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>b)</strong> A curva \(x^2+xy+y^2=1\) possui reta tangente, que é paralela a reta \(y=x\), no ponto \((1,1)\).</p>]]></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>c)</strong> Seja <img class="latex" src="https://chart.googleapis.com/chart?cht=tx&amp;chf=a,s,000000|bg,s,FFFFFF00&amp;chl=f(x)%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bccc%7D%0Ax%2B1%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%3C2%2C%20%5C%5C%0A%26%26%5C%5C%0A%201%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%5Cgeq2.%0A%5Cend%7Barray%7D%20%0A%5Cright." alt="f(x)=\left\{\begin{array}{ccc}
+x+1, &amp; \mbox{ se } &amp; x&lt;2, \\
+&amp;&amp;\\
+ 1, &amp; \mbox{ se } &amp; x\geq2.
+\end{array} 
+\right." /> A função \(f\) é contínua em \(x=2\).</p>]]></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>d)</strong> Considerando que uma função \(f\) é \(par\) se \(f(-x)=f(x)\)  e \(ímpar\) se  \(f(-x)=-f(x)\), para todo \(x\) em seu domínio, a derivada de uma função \(par\) é uma função \(par\).</p>]]></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>e)</strong> A equação da reta tangente à curva \(16x^4 + y^4=32\) no ponto \((1,2)\) é dada por \(2x+y=4\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>f)</strong> Suponha que uma função derivável \(y=y(x)\) satisfaça a seguinte equação \(\displaystyle \frac{x^{2}}{a^{2}}+\frac{y^{2}}{b^{2}}=1.\) A derivada \(y'=\dfrac{dy}{dx}\) é dada por \(y'(x)=\dfrac{-b^2x}{a^2y}\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>g)</strong> Seja \(f(x) = x^2e^{x}\). Segue da Regra do Produto que  \(f^{(20)}(x)= [(x+20)^2-20]e^{x}\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>h)</strong> Suponha que a função \(f\) é derivável em \(x=1\) e \(\lim\limits_{h\longrightarrow 0} \dfrac{f(1+h)}{h}=5\). Segue da definição de derivada que \(f'(1) = 5\).</p>
+<p style="text-align: justify;"> </p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>i)</strong> Se a reta tangente ao gráfico da função \(f(x)=2x^3+3x^2-12x+1\) no ponto \((a,f(a))\) é horizontal o valor de \(a\) é \(-2\).</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p style="text-align: justify;"><strong>j)</strong> Considerando \(7y^2-xy^3=4\) a taxa de variação de \(y\) em relação a \(x\), no ponto \((3,2)\), é \(1\).</p>]]></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Q1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 93989  -->
+  <question type="matching">
+    <name>
+      <text>VF-TIPO 1 (cópia) (cópia) (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Determine se a afirmação é verdadeira ou falsa.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>false</shuffleanswers>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está correta.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está parcialmente correta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está incorreta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>a)</strong> A curva \(x^2+xy+y^2=1\) possui reta tangente, que é paralela a reta \(y=x\), no(s) ponto(s) \((1,-1)\) e \((-1,1)\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>b)</strong> Considerando que uma função \(f\) é \(par\) se \(f(-x)=f(x)\)  e \(ímpar\) se  \(f(-x)=-f(x)\), para todo \(x\) em seu domínio, julgue a afirmação abaixo:</p>
+<p>A derivada de uma função \(impar\) é uma função \(par\).</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>c)</strong> A equação da reta tangente à curva \(16x^4 + y^4=32\) no ponto \((1,2)\) é dada por \(2x+y=4\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>d)</strong> Suponha que uma função derivável \(y=y(x)\) satisfaça a seguinte equação \(\displaystyle \frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1.\) A derivada \(y'=\dfrac{dy}{dx}\) é dada por \(y'(x)=-\dfrac{b^2x}{a^2y}\)</p>]]></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>e)</strong> Seja \(f(x) = x^2e^{x}\). Segue da Regra do Produto que  \(f^{(20)}(x)=[(x+20)^2-20]e^{x}\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>f)</strong> Suponha que a função \(f\) é derivável em \(x=2\) e \(\lim\limits_{x\longrightarrow 2} \dfrac{x^3f(x) - 24}{x-2}=28\). Segue da definição de derivada que \(f'(2)=1\).</p>
+<p> </p>]]></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>g)</strong> Seja \(f(x)=x^3-2x+1\). O ponto do gráfico que \(f\) que tem reta tangente paralela à reta \(y=-2x+1\) é \((0,1)\) </p>
+<p> </p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>h)</strong> A função polinomial \(f(x) = 3x^3+3x^2 + x + d\) tem exatamente uma reta tangente horizontal.</p>
+<p> </p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>i)</strong> Não existe valor \(a\) tal que a reta tangente ao gráfico da função \(f(x)=x+\frac{1}{x}\) no ponto \((a,f(a))\)  tenha inclinação igual a 1.</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>FALSO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[<p><strong>j)</strong> Considere \(y=f(x)\) definida implicitamente por \(x^4-xy+y^4=1\). Sabendo que \(f\) é uma função positiva segue que \(f^{'}(0) = \dfrac{1}{4}\)</p>]]></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <subquestion format="html">
+      <text></text>
+      <answer>
+        <text>VERDADEIRO</text>
+      </answer>
+    </subquestion>
+    <tags>
+      <tag><text>Q1</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 72792  -->
+  <question type="multichoice">
+    <name>
+      <text>derivacao-q2 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Se \(f(x)=(2x^3-3x+2)(4\sqrt{x}+3x)\) então \(f'(1)\) é igual a</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Basta usar a regra do produto para calcular<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>4</mn><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>3</mn><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><mfrac><mn>2</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>+</mo><mn>3</mn><mo>)</mo><mo>,</mo><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><annotation encoding="LaTeX"></annotation></semantics></math><br />f'(x) =(2x^3-3x+2)'(4 \sqrt{x}+3x)+(2x^3-3x+2)(4 \sqrt{x}+3x)',<br /><br /><br />isto é,<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>4</mn><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>3</mn><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><mfrac><mn>2</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>+</mo><mn>3</mn><mo>)</mo><mo>,</mo><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><annotation encoding="LaTeX"></annotation></semantics></math><br />f'(x) = (6x^2-3)(4 \sqrt{x}+3x)+(2x^3-3x+2)(\frac{2}{\sqrt{x}}+3),<br /><br /><br />e em seguida fazer <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>x</mi><mo>=</mo><mn>1</mn><annotation encoding="LaTeX">x=1</annotation></semantics></math>.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre que se <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mi>q</mi><mo>(</mo><mi>x</mi><mo>)</mo><annotation encoding="LaTeX">g(x)=p(x)q(x)</annotation></semantics></math> com as funções <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>p</mi><annotation encoding="LaTeX">p</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>q</mi><annotation encoding="LaTeX">q</annotation></semantics></math> sendo deriváveis no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>x</mi><mo>=</mo><msub><mi>x</mi><mn>0</mn></msub><annotation encoding="LaTeX">x=x_0</annotation></semantics></math> então<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>4</mn><msqrt><mi>x</mi></msqrt><mo>+</mo><mn>3</mn><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><mfrac><mn>2</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>+</mo><mn>3</mn><mo>)</mo><mo>,</mo><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><annotation encoding="LaTeX"></annotation></semantics></math><br />g'(x_0) = p(x_0)q'(x_0)+q(x_0)p'(x_0).</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(26\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /> Parabéns!</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(28\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /> Preste atenção na hora de calcular a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>4</mn><msqrt><mi>x</mi></msqrt><annotation encoding="LaTeX">4\sqrt{x}</annotation></semantics></math>. Talvez você esteja errando nesse passo.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(16\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /> Talvez você esteja errando o sinal do segundo termo da regra de derivação do produto de funções.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-2\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /> Preste atenção no o cálculo da derivada do termo <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup><annotation encoding="LaTeX">2x^3</annotation></semantics></math>.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(15\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Verifique suas contas com maior cuidado.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72793  -->
+  <question type="multichoice">
+    <name>
+      <text>derivacao-q4-tangente (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p style="text-align: justify;">A equação da reta tangente ao gráfico de \(f(x)=(x^2+x-1)(4-x)\) no ponto \((0,f(0))\) é dada por</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Usando a regra do produto temos que <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>4</mn><mo>-</mo><mi>x</mi><mo>)</mo><mo>-</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><annotation encoding="LaTeX">f'(x) = (2x+1)(4-x)-(x^2+x-1)</annotation></semantics></math>. A inclinação da reta tangente em questão é <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mn>0</mn><mo>)</mo><mo>=</mo><mn>5</mn><annotation encoding="LaTeX">f'(0)=5</annotation></semantics></math>. Como essa reta passa pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>0</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>)</mo><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mo>-</mo><mn>4</mn><mo>)</mo><annotation encoding="LaTeX">(0,f(0))=(0,-4)</annotation></semantics></math> temos que<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><mi>y</mi><mo>=</mo><mn>5</mn><mo>(</mo><mi>x</mi><mo>-</mo><mn>0</mn><mo>)</mo><mo>-</mo><mn>4</mn><mo>.</mo><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><annotation encoding="LaTeX"></annotation></semantics></math><br />y = 5(x-0)-4.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>A reta tangente em questão tem inclinação igual a <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mn>0</mn><mo>)</mo><annotation encoding="LaTeX">f'(0)</annotation></semantics></math> e passa pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>0</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(0,f(0))</annotation></semantics></math>, de modo que sua equação é dada por<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><mi>y</mi><mo>=</mo><mn>5</mn><mo>(</mo><mi>x</mi><mo>-</mo><mn>0</mn><mo>)</mo><mo>-</mo><mn>4</mn><mo>.</mo><mo>&lt;</mo><mi>b</mi><mi>r</mi><mo>/</mo><mo>&gt;</mo><annotation encoding="LaTeX"></annotation></semantics></math><br />y = f(0)+f'(0)(x-0).<br /><br /><br />Para calcular a derivada use a regra do produto.<br /><br /></p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(y=5x-4\).</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /> Parabéns!</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=-x-4\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /> Preste atenção ao cálculo de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>f</mi><mo>'</mo></msup><mo>(</mo><mn>0</mn><mo>)</mo><annotation encoding="LaTeX">f^\prime(0)</annotation></semantics></math>.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=3x-4\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><span style="color: #ff0000;"><br /></span> Preste atenção ao cálculo de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msup><mi>f</mi><mo>'</mo></msup><mo>(</mo><mn>0</mn><mo>)</mo><annotation encoding="LaTeX">f^\prime(0)</annotation></semantics></math>.</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=-3x+5\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /> Será mesmo que a reta <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>5</mn><annotation encoding="LaTeX">y=-3x+5</annotation></semantics></math> passa pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>0</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>0</mn><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(0,f(0))</annotation></semantics></math>?</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=-5x-4\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72794  -->
+  <question type="multichoice">
+    <name>
+      <text>derivacao-q9-tangente (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico da função \(f(x)=\dfrac{3x+2x^2}{\sqrt{x}}\) no ponto \((1,f(1))\) é dada por</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Usando a regra do quociente, a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><annotation encoding="LaTeX">f(x)</annotation></semantics></math> é dada por<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mrow><msqrt><mi>x</mi></msqrt><mo>(</mo><mn>3</mn><mo>+</mo><mn>4</mn><mi>x</mi><mo>)</mo><mo>-</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow></mfrac></mrow><mi>x</mi></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>(</mo><mn>3</mn><mo>+</mo><mn>4</mn><mi>x</mi><mo>)</mo><mo>-</mo><mn>3</mn><mi>x</mi><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>x</mi><msqrt><mi>x</mi></msqrt></mrow></mfrac><mo>=</mo><annotation encoding="LaTeX">f'(x)=\frac{\sqrt{x}(3+4x)-\frac{3x+2x^2}{2\sqrt{x}}}{x}=\frac{2x(3+4x)-3x-2x^2}{2x\sqrt{x}}=</annotation></semantics></math><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mfrac><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>-</mo><mn>3</mn><mi>x</mi><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn><mi>x</mi><msqrt><mi>x</mi></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi><mo>(</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mrow><mn>2</mn><mi>x</mi><msqrt><mi>x</mi></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mn>2</mn><msqrt><mi>x</mi></msqrt></mrow></mfrac><annotation encoding="LaTeX">\frac{6x+8x^2-3x-2x^2}{2x\sqrt{x}}=\frac{x(6x+3)}{2x\sqrt{x}}=\frac{6x+3}{2\sqrt{x}}</annotation></semantics></math>.<br /><br />Portanto, temos que <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><annotation encoding="LaTeX">f'(1)=\frac{9}{2}</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>5</mn><annotation encoding="LaTeX">f(1)=5</annotation></semantics></math>.<br /><br />A equação da reta tangente no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>1</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(1,f(1))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><annotation encoding="LaTeX">y=f(1)+f'(1)(x-1)</annotation></semantics></math>. Substituindo os valores encontrados nessa equação obtemos<br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mn>5</mn><mo>+</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><annotation encoding="LaTeX">y=5+\frac{9}{2}(x-1)=\frac{9}{2}x+\frac{1}{2}</annotation></semantics></math>.<br /><br /><br /></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Calcule a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> e, em seguida, lembre que a expressão da reta tangente à curva no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>1</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(1,f(1))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mn>1</mn><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>)</mo><annotation encoding="LaTeX">y=f(1)+f'(1)(x-1)</annotation></semantics></math>.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(y=\dfrac{9}{2}x + \dfrac{1}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text><![CDATA[<p>Parabéns!</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\dfrac{9}{2}x + \dfrac{9}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\dfrac{19}{2}x - \dfrac{9}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\dfrac{19}{2}x + \dfrac{9}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\dfrac{19}{2}x + \dfrac{1}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 80883  -->
+  <question type="multichoice">
+    <name>
+      <text>DERIVAÇÃO SIMPLES-7</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A derivada da função \(f(x) = \sqrt{\sin (x)}\) é igual a</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Se <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt><annotation encoding="LaTeX">g(x)=\sqrt{x}</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>sin</mi><mi>x</mi><annotation encoding="LaTeX">h(x)=\sin x</annotation></semantics></math>, então <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>g</mi><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">f(x)=g(h(x))</annotation></semantics></math>. Daí,<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mi>g</mi><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><mo>)</mo><mo>'</mo><mo>=</mo><mi>g</mi><mo>'</mo><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><mo>.</mo><mi>h</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><annotation encoding="LaTeX">f'(x)=(g(h(x)))'=g'(h(x)).h'(x)</annotation></semantics></math><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mi>sin</mi><mi>x</mi></msqrt></mrow></mfrac><mo>.</mo><mo>(</mo><mi>sin</mi><mi>x</mi><mo>)</mo><mo>'</mo><mo>=</mo><mfrac><mrow><mi>cos</mi><mi>x</mi></mrow><mrow><mn>2</mn><msqrt><mi>sin</mi><mi>x</mi></msqrt></mrow></mfrac><mo>.</mo><annotation encoding="LaTeX">=\frac{1}{2\sqrt{\sin x}}.(\sin x)'=\frac{\cos x}{2\sqrt{\sin x}}.</annotation></semantics></math><br /><br /></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Observe que se definimos <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt><annotation encoding="LaTeX">g(x)=\sqrt{x}</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>sin</mi><mi>x</mi><annotation encoding="LaTeX">h(x)=\sin x</annotation></semantics></math>, então <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>g</mi><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">f(x)=g(h(x))</annotation></semantics></math>. Agora, basta se lembrar da regra da cadeia.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(\dfrac{\cos (x)}{2\sqrt{\sin(x)}}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-\dfrac{\sqrt{\sin (x)}\cos (x)}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\dfrac{\sqrt{\sin (x)}}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\sqrt{\cos (x)}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 80968  -->
+  <question type="multichoice">
+    <name>
+      <text>DERIVAÇÃO SIMPLES-7 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A derivada da função \(f(x) = \sqrt{\cos (x)}\) é igual a</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Se <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt><annotation encoding="LaTeX">g(x)=\sqrt{x}</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>sin</mi><mi>x</mi><annotation encoding="LaTeX">h(x)=\sin x</annotation></semantics></math>, então <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>g</mi><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">f(x)=g(h(x))</annotation></semantics></math>. Daí,<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>(</mo><mi>g</mi><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><mo>)</mo><mo>'</mo><mo>=</mo><mi>g</mi><mo>'</mo><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><mo>.</mo><mi>h</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><annotation encoding="LaTeX">f'(x)=(g(h(x)))'=g'(h(x)).h'(x)</annotation></semantics></math><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>=</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mi>sin</mi><mi>x</mi></msqrt></mrow></mfrac><mo>.</mo><mo>(</mo><mi>sin</mi><mi>x</mi><mo>)</mo><mo>'</mo><mo>=</mo><mfrac><mrow><mi>cos</mi><mi>x</mi></mrow><mrow><mn>2</mn><msqrt><mi>sin</mi><mi>x</mi></msqrt></mrow></mfrac><mo>.</mo><annotation encoding="LaTeX">=\frac{1}{2\sqrt{\sin x}}.(\sin x)'=\frac{\cos x}{2\sqrt{\sin x}}.</annotation></semantics></math><br /><br /></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Observe que se definimos <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msqrt><mi>x</mi></msqrt><annotation encoding="LaTeX">g(x)=\sqrt{x}</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>sin</mi><mi>x</mi><annotation encoding="LaTeX">h(x)=\sin x</annotation></semantics></math>, então <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>g</mi><mo>(</mo><mi>h</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">f(x)=g(h(x))</annotation></semantics></math>. Agora, basta se lembrar da regra da cadeia.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(-\dfrac{\sin (x)}{2\sqrt{\cos(x)}}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-\dfrac{\sqrt{\sin (x)}\cos (x)}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\dfrac{\sqrt{\sin (x)}}{2}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\sqrt{\cos (x)}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 74087  -->
+  <question type="multichoice">
+    <name>
+      <text>Derivada pelo limite</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Suponha que a função \(f\) é derivável em \(x=1\) e \(\lim\limits_{h\longrightarrow 0} \dfrac{f(1+h)}{h}=5\). Encontre \(f'(1)\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está correta.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está parcialmente correta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está incorreta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(5\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(0\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(28\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-1\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 74090  -->
+  <question type="multichoice">
+    <name>
+      <text>Derivada pelo limite 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Suponha que a função \(f\) é derivável em \(x=2\) e \(\lim\limits_{x\longrightarrow 2} \dfrac{x^3f(x) - 24}{x-2}=28\). Encontre \(f'(2)\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está correta.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está parcialmente correta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está incorreta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(5\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(0\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(28\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(-1\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72802  -->
+  <question type="multichoice">
+    <name>
+      <text>regra do produto-1 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p style="text-align: justify;">Dada a função \(f(x)=x^2(x^4-x)\), podemos afirmar que a sua função derivada segunda é \(f^{\prime\prime}(x)\) é igual a.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>saber a regra do produto e derivar polinômios.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está correta.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está parcialmente correta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está incorreta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(6x(5x^3-1) \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(2x(4x^3-1) \)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(3x^2(2x^3-1)\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-x(x^3-1)\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <tags>
+      <tag><text>Deriva produto</text>
+</tag>
+    </tags>
+  </question>
+
+<!-- question: 73252  -->
+  <question type="multichoice">
+    <name>
+      <text>Reta tangente achar função</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para quais valores de \(a\) e \(b\) a reta \(2x+y = b\) é tangente à parábola \(y=\frac{a}{2}x^2\) quando \(x=2\)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está correta.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está parcialmente correta.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Sua resposta está incorreta.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(a=-1\) e \(b=2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(a=\dfrac{-1}{2}\) e \(b=2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(a=1\) e \(b=2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(a=2\) e \(b=2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72805  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-dif-q1 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A reta tangente à curva \(f(t)=\frac{1}{t}+\sqrt{t}\) no ponto \(P=(4, f(4))\) é dada por</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> passando pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">y=f(a)+f'(a)(x-a)</annotation></semantics></math>, onde <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">f'(a)</annotation></semantics></math> é a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="LaTeX">a</annotation></semantics></math>.<br />Logo, como <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mi>t</mi></mfrac><mo>+</mo><msqrt><mi>t</mi></msqrt><annotation encoding="LaTeX">f(t)=\frac{1}{t}+\sqrt{t}</annotation></semantics></math>, temos que <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mn>4</mn><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mn>16</mn></mfrac><annotation encoding="LaTeX">f'(4)=\frac{3}{16}</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mn>4</mn><mo>)</mo><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><annotation encoding="LaTeX">f(4)=\frac{9}{4}</annotation></semantics></math>.<br />Assim,<br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>16</mn></mfrac><mo>(</mo><mi>x</mi><mo>-</mo><mn>4</mn><mo>)</mo><mo>+</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>.</mo><annotation encoding="LaTeX">y=\frac{3}{16}(x-4)+ \frac{9}{4}.</annotation></semantics></math></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre-se que a equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> passando pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">y=f(a)+f'(a)(x-a)</annotation></semantics></math>, onde <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">f'(a)</annotation></semantics></math> é a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="LaTeX">a</annotation></semantics></math>.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(y=\frac{3}{16}(x-4)+ \frac{9}{4}.\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\frac{3}{16}(x+4)+ \frac{9}{4}.\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\frac{7}{16}(x+4)+ \frac{9}{4}.\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\frac{3}{16}(x-4)+ \frac{19}{4}.\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=\frac{3}{16}(x-4)- \frac{9}{4}.\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72806  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-med-q1 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Se a reta tangente ao gráfico da função \(f(x)=2x^3+3x^2-12x+1\) no ponto \((a,f(a))\) é horizontal o valor de \(a\) é<br /><br /></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Observe que <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>x</mi><mo>-</mo><mn>12</mn><annotation encoding="LaTeX">f'(x) = 6x^2+6x-12</annotation></semantics></math>. A reta tangente é horizontal nos pontos onde a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> é igual a zero. Resolvendo a equação <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><annotation encoding="LaTeX">f'(a)=0</annotation></semantics></math> obtemos <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><mo>=</mo><mn>1</mn><annotation encoding="LaTeX">a=1</annotation></semantics></math> ou <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><mo>=</mo><mo>-</mo><mn>2</mn><annotation encoding="LaTeX">a=-2</annotation></semantics></math>.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre que uma reta <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><msub><mi>y</mi><mn>0</mn></msub><mo>+</mo><mi>m</mi><mo>(</mo><mi>x</mi><mo>-</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo><annotation encoding="LaTeX">y=y_0+m(x-x_0)</annotation></semantics></math> é horizontal se <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>m</mi><mo>=</mo><mn>0</mn><annotation encoding="LaTeX">m=0</annotation></semantics></math>. Sabemos que a equacão da reta tangente passando pelo no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é tal que <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>m</mi><mo>=</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">m=f'(a)</annotation></semantics></math>. Portanto, para resolver o exercício, basta calcular a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> e resolver a equação <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo><mn>0</mn><annotation encoding="LaTeX">f'(a)=0</annotation></semantics></math>.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(-2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-1\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(0\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(3\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(4\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72807  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-med-q2 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>O valor \(a\) tal que a reta tangente ao gráfico da função \(f(x)=x+\frac{1}{x}\) no ponto \((a,f(a))\)  tem inclinação igual a 1 é</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>A inclinação da reta tangente à curva no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">f'(a)</annotation></semantics></math>. Calculando a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><annotation encoding="LaTeX">f(x)</annotation></semantics></math> obtemos <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>1</mn><mo>-</mo><mfrac><mn>1</mn><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>&lt;</mo><mn>1</mn><annotation encoding="LaTeX">f'(x)=1-\frac{1}{x^2}<1</annotation></semantics></math>, e portanto podemos afimar que não existe reta tangente cuja inclinação seja igual a 1.<br /><br /><br /></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<div style="text-align: left;">Lembre que a inclinação da reta tangente no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">f'(a)</annotation></semantics></math>.</div>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>não existe</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(a=1\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(a=-1\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(a=0\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(a=2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72808  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-med-q3 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>O valor \(c\) tal que a reta tangente ao gráfico da função \(f(x)=\frac{1}{x^2}-4x\) no ponto \(P=(c, f(c))\) tem inclinação igual a 2 é</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Temos que:<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mo>-</mo><mn>2</mn><msup><mi>x</mi><mrow><mo>-</mo><mn>3</mn></mrow></msup><mo>-</mo><mn>4</mn><mo>=</mo><mo>-</mo><mfrac><mn>2</mn><msup><mi>x</mi><mn>3</mn></msup></mfrac><mo>-</mo><mn>4</mn><mo>.</mo><annotation encoding="LaTeX">f'(x)=-2x^{-3}-4= -\frac{2}{x^3}-4.</annotation></semantics></math><br /><br />Lembrando que a inclinação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>c</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>c</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(c,f(c))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>c</mi><mo>)</mo><annotation encoding="LaTeX">f'(c)</annotation></semantics></math>, obtemos<br /><br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>c</mi><mo>)</mo><mo>=</mo><mo>-</mo><mfrac><mn>2</mn><msup><mi>c</mi><mn>3</mn></msup></mfrac><mo>-</mo><mn>4</mn><mo>=</mo><mn>2</mn><annotation encoding="LaTeX">f'(c)=-\frac{2}{c^3}-4=2</annotation></semantics></math>, <br />logo <br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>c</mi><mo>=</mo><mo>-</mo><mfrac><mn>1</mn><mroot><mn>3</mn><mn>3</mn></mroot></mfrac><mo>.</mo><annotation encoding="LaTeX">c=-\frac{1}{\sqrt[3]{3}}.</annotation></semantics></math></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre que a inclinação da reta tangente no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>c</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>c</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(c,f(c))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>c</mi><mo>)</mo><annotation encoding="LaTeX">f'(c)</annotation></semantics></math>.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(-\frac{1}{\sqrt[3]{3}}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{1}{\sqrt[3]{3}}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-\frac{\sqrt{2}}{\sqrt[3]{3}}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(-\frac{\sqrt[3]{3}}{2\sqrt[3]{3}}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(\frac{3}{2\sqrt[3]{3}}\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72809  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-sim-q1 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico de \(f(x) = 5x^{2} - 4x\) no ponto \((2,f(2))\) é dada por</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>2</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(2,f(2))</annotation></semantics></math> é dada por</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><annotation encoding="LaTeX">y=f(2)+f'(2)(x-2)</annotation></semantics></math>.</p>
+<p>Como <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>12</mn><annotation encoding="LaTeX">f(2)=12</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>10</mn><mo>.</mo><mn>2</mn><mo>-</mo><mn>4</mn><mo>=</mo><mn>16</mn><annotation encoding="LaTeX">f'(2)=10.2-4=16</annotation></semantics></math>, obtemos</p>
+<p><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mn>12</mn><mo>+</mo><mn>16</mn><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>16</mn><mi>x</mi><mo>-</mo><mn>20</mn><annotation encoding="LaTeX">y=12+16(x-2)=16x-20</annotation></semantics></math>.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre-se que a equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> passando pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">y=f(a)+f'(a)(x-a)</annotation></semantics></math>, onde <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">f'(a)</annotation></semantics></math> é a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="LaTeX">a</annotation></semantics></math>.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(y = 16x - 20\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y = 8x - 4\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\( y = 4x + 4\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y = -2x + 16\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=20x - 28\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72810  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-sim-q2 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico da função \(f(x)=x^2-2x+3\) no ponto \((2,f(2))\) é dada por</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>2</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(2,f(2))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><annotation encoding="LaTeX">y=f(2)+f'(2)(x-2)</annotation></semantics></math>. Calculando a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> obtemos <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>2</mn><annotation encoding="LaTeX">f'(x)=2x-2</annotation></semantics></math>, de modo que <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn><annotation encoding="LaTeX">f'(2)=2</annotation></semantics></math>. Além disso <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn><annotation encoding="LaTeX">f(2)=3</annotation></semantics></math>. <br />Substituindo na equação acima encontramos <br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>-</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>-</mo><mn>1</mn><annotation encoding="LaTeX">y=3+2(x-2)=2x-1</annotation></semantics></math>.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre que a equação da reta tangente a gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">y=f(a)+f'(a)(x-a)</annotation></semantics></math>.<br /><br /></p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(y=2x-1\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=2x+4\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=-2x+3\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=-2x-2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=x/2 +2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72811  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-sim-q3 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A reta tangente à curva \(f(t) = t^{3} - 2t^{2} + 4\) no ponto \((2,f(2))\) é dada por</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Temos que <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>t</mi><mo>)</mo><mo>=</mo><mn>3</mn><msup><mi>t</mi><mn>2</mn></msup><mo>-</mo><mn>4</mn><mi>t</mi><annotation encoding="LaTeX">f'(t)=3t^2-4t</annotation></semantics></math>, donde <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>4</mn><annotation encoding="LaTeX">f'(2)=4</annotation></semantics></math>. Como <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>4</mn><annotation encoding="LaTeX">f(2)=4</annotation></semantics></math>, substituindo esses valores na equação da reta tangente obtemos <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>(</mo><mi>t</mi><mo>-</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>4</mn><mi>t</mi><mo>-</mo><mn>4</mn><annotation encoding="LaTeX">y=4+4(t-2)=4t-4</annotation></semantics></math>.</p>
+<p> </p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre que a equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>t</mi><mo>)</mo><annotation encoding="LaTeX">f(t)</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mn>2</mn><mo>,</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(2,f(2))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>t</mi><mo>-</mo><mn>2</mn><mo>)</mo><annotation encoding="LaTeX">y=f(2)+f'(2)(t-2)</annotation></semantics></math>.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(y = 4t - 4\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y = 2t\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y = 6t - 8\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y = 5t - 6\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=t-2\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72812  -->
+  <question type="multichoice">
+    <name>
+      <text>tangente-sim-q4 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico da função \(f(x)=3-2x^2\) no ponto \(P=(-3, f(-3))\) é dada por:</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.1000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <showstandardinstruction>1</showstandardinstruction>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>A equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> passando pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">y=f(a)+f'(a)(x-a)</annotation></semantics></math>, onde <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">f'(a)</annotation></semantics></math> é a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="LaTeX">a</annotation></semantics></math>.<br /><br />Como <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>-</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><annotation encoding="LaTeX">f(x)=3-2x^2</annotation></semantics></math>, temos <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>12</mn><annotation encoding="LaTeX">f'(-3)=12</annotation></semantics></math> e <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>(</mo><mo>-</mo><mn>3</mn><mo>)</mo><mo>=</mo><mo>-</mo><mn>15</mn><annotation encoding="LaTeX">f(-3)=-15</annotation></semantics></math>, de onde vem que<br /><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mn>12</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>-</mo><mn>15</mn><mo>.</mo><annotation encoding="LaTeX">y=12(x+3)-15.</annotation></semantics></math></p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Lembre-se que a equação da reta tangente ao gráfico de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> passando pelo ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mo>(</mo><mi>a</mi><mo>,</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>)</mo><annotation encoding="LaTeX">(a,f(a))</annotation></semantics></math> é dada por <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>y</mi><mo>=</mo><mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>+</mo><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>-</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">y=f(a)+f'(a)(x-a)</annotation></semantics></math>, onde <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><mo>'</mo><mo>(</mo><mi>a</mi><mo>)</mo><annotation encoding="LaTeX">f'(a)</annotation></semantics></math> é a derivada de <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>f</mi><annotation encoding="LaTeX">f</annotation></semantics></math> no ponto <math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>a</mi><annotation encoding="LaTeX">a</annotation></semantics></math>.</p>]]></text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>\(y=12(x+3)-15\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=12(x+3)+21\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=6(x-3)-15\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=12(x-3)-15\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p>\(y=6(x+3)+21\)</p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72821  -->
+  <question type="truefalse">
+    <name>
+      <text>Continuidade e Diferenciabilidade</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja<br /><br /><img class="latex" src="https://chart.googleapis.com/chart?cht=tx&amp;chf=a,s,000000|bg,s,FFFFFF00&amp;chl=f(x)%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bccc%7D%0Ax%2B1%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%3C2%2C%20%5C%5C%0A%26%26%5C%5C%0A%201%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%5Cgeq2.%0A%5Cend%7Barray%7D%20%0A%5Cright." alt="f(x)=\left\{\begin{array}{ccc}
+x+1, &amp; \mbox{ se } &amp; x&lt;2, \\
+&amp;&amp;\\
+ 1, &amp; \mbox{ se } &amp; x\geq2.
+\end{array} 
+\right." /></p>
+<p>A função \(f\) é contínua em \(x=2\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72823  -->
+  <question type="truefalse">
+    <name>
+      <text>Continuidade e Diferenciabilidade 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja<br /><br /><img class="latex" src="https://chart.googleapis.com/chart?cht=tx&amp;chf=a,s,000000|bg,s,FFFFFF00&amp;chl=f(x)%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bccc%7D%0Ax%5E2%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%5Cleq%200%2C%20%5C%5C%20-x%5E2%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%3E0.%0A%5Cend%7Barray%7D%20%5Cright." alt="&quot;f(x)=\left\{\begin{array}{ccc}" /></p>
+<p>A função \(f\) é contínua em \(x=0\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72824  -->
+  <question type="truefalse">
+    <name>
+      <text>Continuidade e Diferenciabilidade 1 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja<br /><br /><img class="latex" src="https://chart.googleapis.com/chart?cht=tx&amp;chf=a,s,000000|bg,s,FFFFFF00&amp;chl=f(x)%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bccc%7D%0Ax%5E2%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%5Cleq%200%2C%20%5C%5C%20-x%5E2%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%3E0.%0A%5Cend%7Barray%7D%20%5Cright." alt="&quot;f(x)=\left\{\begin{array}{ccc}" /></p>
+<p>A função \(f\) é derivável em \(x=0\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72822  -->
+  <question type="truefalse">
+    <name>
+      <text>Continuidade e Diferenciabilidade (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Seja<br /><br /><img class="latex" src="https://chart.googleapis.com/chart?cht=tx&amp;chf=a,s,000000|bg,s,FFFFFF00&amp;chl=f(x)%3D%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Bccc%7D%0Ax%2B1%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%3C2%2C%20%5C%5C%20%0A%26%26%5C%5C%0A1%2C%20%26%20%5Cmbox%7B%20se%20%7D%20%26%20x%5Cgeq2.%0A%5Cend%7Barray%7D%20%5Cright." alt="f(x)=\left\{\begin{array}{ccc}
+x+1, &amp; \mbox{ se } &amp; x&lt;2, \\ 
+&amp;&amp;\\
+1, &amp; \mbox{ se } &amp; x\geq2.
+\end{array} \right." /></p>
+<p>A função \(f\) não é derivável em \(x=2\).</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text><![CDATA[<p>Se a função \(f\) não é contínua em um ponto então \(f\) não é derivável no ponto.</p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72813  -->
+  <question type="truefalse">
+    <name>
+      <text>tangente-dif-q2 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Se uma função \(f\) é contínua em \(x=a\) então a reta tangente ao gráfico de \(f\) no ponto \((a,f(a))\) sempre existe.<br /><br /><br /><br /></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<p>Considere a função \(f(x)=|x|\). Verifique que \(f\) é contínua em \(x=0\), contudo, não é derivável em \(x=0.\)</p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 72814  -->
+  <question type="truefalse">
+    <name>
+      <text>tangente-med-q4 (cópia)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Considere a função<br /><br /><img class="latex" src="https://chart.googleapis.com/chart?cht=tx&amp;chf=a,s,000000|bg,s,FFFFFF00&amp;chl=f(x)%20%3D%20%5Cleft%5C%7B%20%5Cbegin%7Barray%7D%7Bll%7D3x%5E%7B2%7D%2B1%20%26%20%5C%2C%5C%2Cse%5C%2C%5C%2C%20x%20%5Cgeq%200%2C%20%0A%5C%5C1%26%20%5C%2C%5C%2Cse%5C%2C%5C%2C%20x%20%3C0.%5Cend%7Barray%7D%5Cright." alt="f(x) = \left\{ \begin{array}{ll}3x^{2}+1 &amp; \,\,se\,\, x \geq 0, 
+\\1&amp; \,\,se\,\, x &lt;0.\end{array}\right." /><br /><br />Neste caso, é possível definir a reta tangente no ponto \(P=(0,1).\)</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[<p><br /><br /><br /></p>]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text><![CDATA[<p>Lembre que a reta tangente no ponto \(P=(0,1)\) existe se, e somente se, existe a derivada \(f'(0)\). </p>]]></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>

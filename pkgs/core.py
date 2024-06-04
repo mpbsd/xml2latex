@@ -3,8 +3,15 @@
 
 import re
 
+TAG = re.compile(r"(</?[a-z]+[^>]*?>)")
+
+
 def main():
-    print("hello, world")
+    with open("brew/inputdata.xml") as rawxmlfile:
+        xmlfile = rawxmlfile.read()
+        PIECES = TAG.split(xmlfile)
+        for x in [x.strip() for x in PIECES if x.strip() != ""]:
+            print(x)
 
 
 if __name__ == "__main__":

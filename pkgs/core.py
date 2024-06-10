@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import re
 from bs4 import BeautifulSoup as bs
 
 
@@ -10,7 +9,7 @@ def main():
         html = raw_html_file.read()
         soup = bs(html, 'lxml')
         for question in soup.find_all('div', {'class': 'question'}):
-            print(question.text)
+            print(question)
 
 
 if __name__ == "__main__":
